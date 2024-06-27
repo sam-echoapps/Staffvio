@@ -1344,7 +1344,7 @@ max-width: 20rem;
  .login-body{
   background-image: url('../../css/images/bgimg.png');
   background-color: #012552;
-  height: 100vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1809,6 +1809,24 @@ color:white;
   max-width:550px;
 }
 
+.copyright-area{
+  background: #202020;
+  padding: 15px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 12px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+
+.copyright-text-right {
+  text-align: right;
+  margin-right: 15px;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
 [class*="buttonset-align"] {
@@ -1924,6 +1942,25 @@ color:white;
 .demo-list-item-layout4 {
   width: 12rem;
 }
+
+.copyright-area{
+  background: #202020;
+  padding: 15px 0;
+}
+.copyright-text p {
+  margin-top: -10px;
+  font-size: 12px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+
+.copyright-text-right {
+  text-align: right;
+  margin-right: 15px;
+}
+
 
 }
 
